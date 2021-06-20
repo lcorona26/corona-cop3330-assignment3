@@ -1,0 +1,6 @@
+@startuml
+class App{
+    void newFile()
+    String readOutputName()
+}
+@enduml

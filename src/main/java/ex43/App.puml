@@ -1,0 +1,15 @@
+@startuml
+
+class App{}
+class Generate{
+    void Files()
+}
+class Input{
+    readSite()
+    readAuthor()
+    readJava()
+    readCss()
+}
+Generate <|-- Input
+App <|-- Generate
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+class App{
+    String parseFile()
+}
+class Json{
+    void parseJson()
+}
+App <|-- Json
+Json <|-- App
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+class App{
+    void printOutput()
+    ArrayList<String> parseFile()
+}
+class Data{
+    ArrayList<String> getWord()
+    TreeMap<String, Integer> getCount()
+}
+App <|-- Data
+Data <|-- App
+@enduml
